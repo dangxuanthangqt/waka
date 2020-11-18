@@ -192,5 +192,230 @@ button {
     background-color: #F9FAFB;
   }
 }
+.book-detail {
+  background-color: #F9FAFB;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.book-detail__img {
+  width: 30%;
+}
+.book-detail__img img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.book-detail__left {
+  width: 75%;
+}
+.book-detail__left__top {
+  padding: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.book-detail__right {
+  width: 24%;
+  background-color: white;
+}
+.book-detail__point {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.book-detail__point span {
+  color: #1ba085;
+}
+.book-detail__votes {
+  font-style: italic;
+  text-align: center;
+  color: #3a4752;
+  font-size: 13px;
+}
+.book-detail__content {
+  width: 61%;
+}
+
+.content-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+.content-field {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.content-field__content {
+  color: #978888;
+  cursor: pointer;
+}
+.content-field__content:hover {
+  color: #1ba085;
+}
+.content-button {
+  margin-top: 10px;
+  color: white;
+  border-radius: 2px;
+  padding: 0 20px;
+  background-color: #1ba085;
+  outline: none !important;
+  border: none;
+}
+.content-button:hover {
+  background-color: #048a70;
+}
+.content-main {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.book-detail__right {
+  padding: 15px;
+}
+.book-detail__right__title {
+  text-align: center;
+  font-size: 20px;
+}
+.book-detail__right__img {
+  box-shadow: 0 0 10.32px 1.68px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  width: 70%;
+  margin: 20px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.book-detail__right__img img {
+  width: 100%;
+  object-fit: cover;
+}
+.book-detail__right__img:hover .book-detail__right__icon {
+  visibility: visible;
+}
+.book-detail__right__img:hover .book-detail__right__votes {
+  visibility: visible;
+}
+.book-detail__right__votes {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: #1ba085;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 1;
+}
+.book-detail__right__point {
+  color: white;
+  font-size: 14px;
+}
+.book-detail__right__icon {
+  visibility: hidden;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1ba085;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-detail__left__banner {
+  margin-top: 20px;
+  width: 100%;
+}
+.book-detail__left__banner img {
+  width: 100%;
+}
+.book-detail__left__comments {
+  margin-top: 20px;
+}
+
+.comments {
+  font-size: 13px;
+}
+.comments__form {
+  display: flex;
+  justify-content: space-between;
+}
+.comments__form__avatar {
+  width: 6%;
+}
+.comments__form__avatar img {
+  width: 100%;
+  object-fit: cover;
+}
+.comments__form__form {
+  font-size: 14px;
+  width: 92%;
+  padding: 15px;
+  border: 1px solid #1ba085;
+}
+.comments__form__form input {
+  padding-left: 5px;
+  outline: none !important;
+  border: 1px solid #e9ebee;
+}
+.comments__form__form label {
+  width: 15%;
+}
+.comments__form__form textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #e9ebee;
+  outline: none !important;
+}
+.comments__submit {
+  background-color: #1ba085;
+  outline: none !important;
+  border: none;
+  color: white;
+}
+
+.comments__item {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e9ebee;
+  padding: 10px 0;
+}
+.comments__item__avatar {
+  width: 6%;
+}
+.comments__item__avatar img {
+  width: 100%;
+}
+.comments__item__content {
+  width: 92%;
+  font-size: 13px;
+}
+.comments__item__name {
+  color: #1ba085;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+  .book-detail__right {
+    display: none;
+  }
+  .book-detail__left {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

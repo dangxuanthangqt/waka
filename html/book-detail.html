@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header fixed-top">
+      <div class="header__top container">
+        <div class="row">
+          <div class="header__top__left col-md-8 col-12">
+            <div class="header__top__left__logo col-md-3">
+              <img
+                src="https://waka.vn/themes/desktop/images/logo-waka.png"
+                alt=""
+              />
+            </div>
+            <div class="header__top__left__search col-md-9 col-12 d-flex">
+              <input
+                class="header__input col-8 col-md-8"
+                type="text"
+                placeholder="Nhập tên sách"
+              />
+              <button class="header__btn-search col-4 col-md-4">
+                <i class="fas fa-search"></i> Search
+              </button>
+            </div>
+          </div>
+          <div class="header__top__right col-md-4 d-flex">
+            <button class="header__top__login col-10 col-sm-6">
+              ĐĂNG NHẬP
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__top__nav">
+        <div class="container">
+          <div class="row nav-top d-flex justify-content-center flex-wrap">
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="carousel">
+      <div class="container">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="2000">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1328_new.jpg?v=5&w=1580&h=400"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1498_new.jpg?v=4&w=1580&h=400"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1501_new.jpg?v=5&w=1580&h=400"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleInterval"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleInterval"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="book-detail">
+      <div class="container">
+        <div class="grid-detail">
+          <div class="book-detail__left">
+            <div class="book-detail__left__top">
+              <div class="book-detail__img">
+                <img
+                  src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/24997.jpg?v=1&w=340&h=497"
+                  alt=""
+                />
+                <div class="book-detail__vote">
+                  <p class="book-detail__point">Diem: <span>8/10</span></p>
+                  <p class="book-detail__votes"><span>248</span> votes</p>
+                </div>
+              </div>
+              <div class="book-detail__content">
+                <h3 class="content-title">Bí mật của người kể chuyện</h3>
+                <p class="content-field">
+                  Tac gia :
+                  <span class="content-field__content"> dang xuan thang </span>
+                </p>
+                <p class="content-field">
+                  The loai :
+                  <span class="content-field__content"> dang xuan thang </span>
+                </p>
+                <p class="content-field">
+                  Nha xuat ban :
+                  <span class="content-field__content"> dang xuan thang </span>
+                </p>
+                <p class="content-field">
+                  Ngày cập nhật :
+                  <span class="content-field__content"> 1/1/2020 </span>
+                </p>
+                <p class="content-field">
+                  Nha xuat ban :
+                  <span class="content-field__content"> dang xuan thang </span>
+                </p>
+                <button class="content-button">Doc sach</button>
+                <p class="content-main">
+                  Kể chuyện là một nghệ thuật, và người kể chuyện là một nghệ
+                  sĩ. Nghệ thuật kể chuyện có thể thay đổi cuộc đời của chúng
+                  ta. Làm thế nào một người bán áo phông có thể trở thành một
+                  nhà sản xuất chương trình hàng đầu? Làm thế nào người con trai
+                  nhút nhát của một mục sư vượt qua được nỗi sợ nói trước đám
+                  đông để thuyết trình và bán hết vé tại sân vận động? Làm thế
+                  nào các phong trào nổi tiếng trên thế giới như “thử thách xô
+                  đá” được mọi người hướng ứng, bao gồm cả những người nổi tiếng
+                  như Bill Gates hay Mark Zurketberg. Họ đã kể những câu chuyện
+                  tuyệt vời. Trong Bí mật của Người kể chuyện, Carmille Gallo
+                  tiết lộ những chìa khóa để kể những câu chuyện đầy mạnh mẽ,
+                  truyền cảm hứng, xây dựng thương hiệu, khơi dậy các phong trào
+                  và thay đổi cuộc sống. Như tỷ phú Richard Branson đã nói:
+                  “Nghệ thuật kể chuyện có thể được sử dụng để thúc đẩy sự thay
+                  đổi.” “Tôi tin rằng khó khăn của bạn chính là lợi thế của bạn.
+                  Carmine Gallo đã chia sẻ triết lý này. Trong Bí mật của Người
+                  kể chuyện, anh ấy cho thấy cách chúng ta vượt qua thử thách là
+                  cách những câu chuyện tuyệt vời và các thành công vang dội
+                  được tạo ra.” – Darren Hardy, cựu CEO của tạp chí Success.
+                  Waka trân trọng giới thiệu!
+                </p>
+              </div>
+            </div>
+            <div class="book-detail__left__banner">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.media/uploads/images/Banner-Web-bookdetail.gif"
+                alt=""
+              />
+            </div>
+            <div class="book-detail__left__comments">
+              <div class="comments__form">
+                <div class="comments__form__avatar">
+                  <img
+                    src="https://scontent.fdad3-2.fna.fbcdn.net/v/t1.0-9/66846283_1042064692655875_1909790863530131456_n.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_ohc=_g5f86SH5ywAX_ucciW&_nc_ht=scontent.fdad3-2.fna&oh=7e6bff4acd3032d2101824309a58b511&oe=5FDBD6CB"
+                    alt=""
+                  />
+                </div>
+                <div class="comments__form__form">
+                  <input
+                    type="number"
+                    max="10"
+                    min="1"
+                    id="fname"
+                    name="fname"
+                    placeholder="Diem"
+                  /><br /><br />
+
+                  <textarea
+                    placeholder="Nhap binh luan"
+                    name="cmt"
+                    rows="4"
+                    cols="50"
+                  ></textarea>
+                  <button class="comments__submit">Gui binh luan</button>
+                </div>
+              </div>
+              <div class="comments__list">
+                <div class="comments__item">
+                  <div class="comments__item__avatar">
+                    <img
+                      src="https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/61770108_1344823469008779_9111654860834471936_o.jpg?_nc_cat=106&cb=846ca55b-ee17756f&ccb=2&_nc_sid=09cbfe&_nc_ohc=S8EphJk59zMAX9BEVcR&_nc_ht=scontent.fdad3-1.fna&oh=c2b3cfa36d8b5400ff0cab98f3d450d4&oe=5FD9A85D"
+                      alt=""
+                    />
+                  </div>
+                  <div class="comments__item__content">
+                      <p class="comments__item__name">Dang xuan thang</p>
+                      <p class="comments__item_point">Diem: 6/10</p>
+                      <p class="comments__item__cmt">Bí mật của Người kể chuyện, anh ấy cho thấy cách chúng ta vượt qua thử thách là cách những câu chuyện tuyệt vời và các thành công vang dội được</p>
+                  </div>
+                </div>
+                <div class="comments__item">
+                  <div class="comments__item__avatar">
+                    <img
+                      src="https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/61770108_1344823469008779_9111654860834471936_o.jpg?_nc_cat=106&cb=846ca55b-ee17756f&ccb=2&_nc_sid=09cbfe&_nc_ohc=S8EphJk59zMAX9BEVcR&_nc_ht=scontent.fdad3-1.fna&oh=c2b3cfa36d8b5400ff0cab98f3d450d4&oe=5FD9A85D"
+                      alt=""
+                    />
+                  </div>
+                  <div class="comments__item__content">
+                      <p class="comments__item__name">Dang xuan thang</p>
+                      <p class="comments__item_point">Diem: 6/10</p>
+                      <p class="comments__item__cmt">Bí mật của Người kể chuyện, anh ấy cho thấy cách chúng ta vượt qua thử thách là cách những câu chuyện tuyệt vời và các thành công vang dội được</p>
+                  </div>
+                </div>
+                <div class="comments__item">
+                  <div class="comments__item__avatar">
+                    <img
+                      src="https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/61770108_1344823469008779_9111654860834471936_o.jpg?_nc_cat=106&cb=846ca55b-ee17756f&ccb=2&_nc_sid=09cbfe&_nc_ohc=S8EphJk59zMAX9BEVcR&_nc_ht=scontent.fdad3-1.fna&oh=c2b3cfa36d8b5400ff0cab98f3d450d4&oe=5FD9A85D"
+                      alt=""
+                    />
+                  </div>
+                  <div class="comments__item__content">
+                      <p class="comments__item__name">Dang xuan thang</p>
+                      <p class="comments__item_point">Diem: 6/10</p>
+                      <p class="comments__item__cmt">Bí mật của Người kể chuyện, anh ấy cho thấy cách chúng ta vượt qua thử thách là cách những câu chuyện tuyệt vời và các thành công vang dội được</p>
+                  </div>
+                </div>
+                <div class="comments__item">
+                  <div class="comments__item__avatar">
+                    <img
+                      src="https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/61770108_1344823469008779_9111654860834471936_o.jpg?_nc_cat=106&cb=846ca55b-ee17756f&ccb=2&_nc_sid=09cbfe&_nc_ohc=S8EphJk59zMAX9BEVcR&_nc_ht=scontent.fdad3-1.fna&oh=c2b3cfa36d8b5400ff0cab98f3d450d4&oe=5FD9A85D"
+                      alt=""
+                    />
+                  </div>
+                  <div class="comments__item__content">
+                      <p class="comments__item__name">Dang xuan thang</p>
+                      <p class="comments__item_point">Diem: 6/10</p>
+                      <p class="comments__item__cmt">Bí mật của Người kể chuyện, anh ấy cho thấy cách chúng ta vượt qua thử thách là cách những câu chuyện tuyệt vời và các thành công vang dội được</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="book-detail__right">
+            <p class="book-detail__right__title">Kinh doanh tong hop</p>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+            <div class="book-detail__right__img">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/20962.jpg?v=1&w=210&h=307"
+                alt=""
+              />
+              <div class="book-detail__right__votes">
+                <p class="book-detail__right__point">5/10 <span>votes</span></p>
+              </div>
+              <div class="book-detail__right__icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
