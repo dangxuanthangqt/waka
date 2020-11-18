@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/CSS/listbook.css" />
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header fixed-top">
+      <div class="header__top container">
+        <div class="row">
+          <div class="header__top__left col-md-8 col-12">
+            <div class="header__top__left__logo col-md-3">
+              <img
+                src="https://waka.vn/themes/desktop/images/logo-waka.png"
+                alt=""
+              />
+            </div>
+            <div class="header__top__left__search col-md-9 col-12 d-flex">
+              <input
+                class="header__input col-8 col-md-8"
+                type="text"
+                placeholder="Nhập tên sách"
+              />
+              <button class="header__btn-search col-4 col-md-4">
+                <i class="fas fa-search"></i> Search
+              </button>
+            </div>
+          </div>
+          <div class="header__top__right col-md-4 d-flex">
+            <button class="header__top__login col-10 col-sm-6">
+              ĐĂNG NHẬP
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__top__nav">
+        <div class="container">
+          <div class="row nav-top d-flex justify-content-center flex-wrap">
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+            <a class="nav-top__item text-center">Tai sao chon waka</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="carousel">
+      <div class="container">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="2000">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1328_new.jpg?v=5&w=1580&h=400"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1498_new.jpg?v=4&w=1580&h=400"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img
+                src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1501_new.jpg?v=5&w=1580&h=400"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleInterval"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleInterval"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="book-type-list">
+      <div class="container">
+        <p class="book-type-title">Ngon tinh</p>
+        <div class="book-type-list__list">
+          <div class="item-container">
+            <div class="book-type-list__item">
+              <div class="book-type-list__item--left">
+                <div>
+                  <img
+                    src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/27766.jpg?v=1&w=200&h=292"
+                    alt=""
+                  />
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+              <div class="book-type-list__item--right">
+                <p class="book-type-list__item__title line-clamp--2">
+                  Xuyên nhanh: Dân chơi số 1 Xuyên nhanh: Dân chơi số 1
+                </p>
+                <p class="book-type-list__item__author truncate">
+                  Dang xuan thang
+                </p>
+                <p class="item__point">8/10</p>
+                <p class="item__point">198 votes</p>
+                <p class="item__content line-clamp--2">
+                  Bạch Thần đi đời nhà ma khi chơi game, bị bắt vào một không
+                  gian trò chơi để chơi tiếp. Đại lão nào đó: Tôi thích sự cố
+                  chấp của cô ấy, sự hoang dại của cô ấy, sự xấu xí của cô ấy!
+                </p>
+              </div>
+              <div class="break-line"></div>
+              <p class="item-view">2,529 lượt xem</p>
+              <button class="item-button">Chi tiet</button>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="book-type-list__item">
+              <div class="book-type-list__item--left">
+                <div>
+                  <img
+                    src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/27766.jpg?v=1&w=200&h=292"
+                    alt=""
+                  />
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+              <div class="book-type-list__item--right">
+                <p class="book-type-list__item__title line-clamp--2">
+                  Xuyên nhanh: Dân chơi số 1 Xuyên nhanh: Dân chơi số 1
+                </p>
+                <p class="book-type-list__item__author truncate">
+                  Dang xuan thang
+                </p>
+                <p class="item__point">8/10</p>
+                <p class="item__point">198 votes</p>
+                <p class="item__content line-clamp--2">
+                  Bạch Thần đi đời nhà ma khi chơi game, bị bắt vào một không
+                  gian trò chơi để chơi tiếp. Đại lão nào đó: Tôi thích sự cố
+                  chấp của cô ấy, sự hoang dại của cô ấy, sự xấu xí của cô ấy!
+                </p>
+              </div>
+              <div class="break-line"></div>
+              <p class="item-view">2,529 lượt xem</p>
+              <button class="item-button">Chi tiet</button>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="book-type-list__item">
+              <div class="book-type-list__item--left">
+                <div>
+                  <img
+                    src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/27766.jpg?v=1&w=200&h=292"
+                    alt=""
+                  />
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+              <div class="book-type-list__item--right">
+                <p class="book-type-list__item__title line-clamp--2">
+                  Xuyên nhanh: Dân chơi số 1 Xuyên nhanh: Dân chơi số 1
+                </p>
+                <p class="book-type-list__item__author truncate">
+                  Dang xuan thang
+                </p>
+                <p class="item__point">8/10</p>
+                <p class="item__point">198 votes</p>
+                <p class="item__content line-clamp--2">
+                  Bạch Thần đi đời nhà ma khi chơi game, bị bắt vào một không
+                  gian trò chơi để chơi tiếp. Đại lão nào đó: Tôi thích sự cố
+                  chấp của cô ấy, sự hoang dại của cô ấy, sự xấu xí của cô ấy!
+                </p>
+              </div>
+              <div class="break-line"></div>
+              <p class="item-view">2,529 lượt xem</p>
+              <button class="item-button">Chi tiet</button>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="book-type-list__item">
+              <div class="book-type-list__item--left">
+                <div>
+                  <img
+                    src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/27766.jpg?v=1&w=200&h=292"
+                    alt=""
+                  />
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+              <div class="book-type-list__item--right">
+                <p class="book-type-list__item__title line-clamp--2">
+                  Xuyên nhanh: Dân chơi số 1 Xuyên nhanh: Dân chơi số 1
+                </p>
+                <p class="book-type-list__item__author truncate">
+                  Dang xuan thang
+                </p>
+                <p class="item__point">8/10</p>
+                <p class="item__point">198 votes</p>
+                <p class="item__content line-clamp--2">
+                  Bạch Thần đi đời nhà ma khi chơi game, bị bắt vào một không
+                  gian trò chơi để chơi tiếp. Đại lão nào đó: Tôi thích sự cố
+                  chấp của cô ấy, sự hoang dại của cô ấy, sự xấu xí của cô ấy!
+                </p>
+              </div>
+              <div class="break-line"></div>
+              <p class="item-view">2,529 lượt xem</p>
+              <button class="item-button">Chi tiet</button>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="book-type-list__item">
+              <div class="book-type-list__item--left">
+                <div>
+                  <img
+                    src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/27766.jpg?v=1&w=200&h=292"
+                    alt=""
+                  />
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+              <div class="book-type-list__item--right">
+                <p class="book-type-list__item__title line-clamp--2">
+                  Xuyên nhanh: Dân chơi số 1 Xuyên nhanh: Dân chơi số 1
+                </p>
+                <p class="book-type-list__item__author truncate">
+                  Dang xuan thang
+                </p>
+                <p class="item__point">8/10</p>
+                <p class="item__point">198 votes</p>
+                <p class="item__content line-clamp--2">
+                  Bạch Thần đi đời nhà ma khi chơi game, bị bắt vào một không
+                  gian trò chơi để chơi tiếp. Đại lão nào đó: Tôi thích sự cố
+                  chấp của cô ấy, sự hoang dại của cô ấy, sự xấu xí của cô ấy!
+                </p>
+              </div>
+              <div class="break-line"></div>
+              <p class="item-view">2,529 lượt xem</p>
+              <button class="item-button">Chi tiet</button>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="book-type-list__item">
+              <div class="book-type-list__item--left">
+                <div>
+                  <img
+                    src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/27766.jpg?v=1&w=200&h=292"
+                    alt=""
+                  />
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+              <div class="book-type-list__item--right">
+                <p class="book-type-list__item__title line-clamp--2">
+                  Xuyên nhanh: Dân chơi số 1 Xuyên nhanh: Dân chơi số 1
+                </p>
+                <p class="book-type-list__item__author truncate">
+                  Dang xuan thang
+                </p>
+                <p class="item__point">8/10</p>
+                <p class="item__point">198 votes</p>
+                <p class="item__content line-clamp--2">
+                  Bạch Thần đi đời nhà ma khi chơi game, bị bắt vào một không
+                  gian trò chơi để chơi tiếp. Đại lão nào đó: Tôi thích sự cố
+                  chấp của cô ấy, sự hoang dại của cô ấy, sự xấu xí của cô ấy!
+                </p>
+              </div>
+              <div class="break-line"></div>
+              <p class="item-view">2,529 lượt xem</p>
+              <button class="item-button">Chi tiet</button>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="book-type-list__item">
+              <div class="book-type-list__item--left">
+                <div>
+                  <img
+                    src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/27766.jpg?v=1&w=200&h=292"
+                    alt=""
+                  />
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+              <div class="book-type-list__item--right">
+                <p class="book-type-list__item__title line-clamp--2">
+                  Xuyên nhanh: Dân chơi số 1 Xuyên nhanh: Dân chơi số 1
+                </p>
+                <p class="book-type-list__item__author truncate">
+                  Dang xuan thang
+                </p>
+                <p class="item__point">8/10</p>
+                <p class="item__point">198 votes</p>
+                <p class="item__content line-clamp--2">
+                  Bạch Thần đi đời nhà ma khi chơi game, bị bắt vào một không
+                  gian trò chơi để chơi tiếp. Đại lão nào đó: Tôi thích sự cố
+                  chấp của cô ấy, sự hoang dại của cô ấy, sự xấu xí của cô ấy!
+                </p>
+              </div>
+              <div class="break-line"></div>
+              <p class="item-view">2,529 lượt xem</p>
+              <button class="item-button">Chi tiet</button>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="book-type-list__item">
+              <div class="book-type-list__item--left">
+                <div>
+                  <img
+                    src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/27766.jpg?v=1&w=200&h=292"
+                    alt=""
+                  />
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+              <div class="book-type-list__item--right">
+                <p class="book-type-list__item__title line-clamp--2">
+                  Xuyên nhanh: Dân chơi số 1 Xuyên nhanh: Dân chơi số 1
+                </p>
+                <p class="book-type-list__item__author truncate">
+                  Dang xuan thang
+                </p>
+                <p class="item__point">8/10</p>
+                <p class="item__point">198 votes</p>
+                <p class="item__content line-clamp--2">
+                  Bạch Thần đi đời nhà ma khi chơi game, bị bắt vào một không
+                  gian trò chơi để chơi tiếp. Đại lão nào đó: Tôi thích sự cố
+                  chấp của cô ấy, sự hoang dại của cô ấy, sự xấu xí của cô ấy!
+                </p>
+              </div>
+              <div class="break-line"></div>
+              <p class="item-view">2,529 lượt xem</p>
+              <button class="item-button">Chi tiet</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
