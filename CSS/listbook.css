@@ -142,4 +142,10 @@
   visibility: hidden;
 }
 
+@media only screen and (max-width: 576px) {
+  .item-container {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=listbook.css.map */
